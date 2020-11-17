@@ -8,7 +8,7 @@ class MyName extends React.Component {
   }
 
   handleChange(event){
-    this.setState({name: event.targer.value})
+    this.setState({name: event.target.value})
   }
 
   render () {
